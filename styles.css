@@ -11,6 +11,74 @@ body{
 	background: #182a3a;
 }
 
+#preloader{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #355c7d ;
+	z-index: 10000;
+	overflow: hidden;
+  }
+  .preloader-logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  #textA{
+	animation: animateOne 0.53s linear 0.5s infinite alternate;
+  }
+  #textX{
+	animation: animateTwo 0.55s linear 0.5s infinite alternate;
+  }
+  #textW{
+	animation: animateThree 0.6s linear 0.5s infinite alternate;
+  }
+  #textG{
+	animation: animateFour 0.62s linear 0.5s infinite alternate;
+  }
+  @keyframes animateOne{
+	0%{
+	  opacity: 0;
+	  fill: #355c7d;
+	}
+	100%{
+	  opacity: 1;
+	  fill: #060606;
+	}
+  }
+  @keyframes animateTwo{
+	0%{
+	  opacity: 0;
+	  fill: #355c7d;
+	}
+	100%{
+	  opacity: 1;
+	  fill: #00eaff;
+	}
+  }
+	  @keyframes animateThree{
+	0%{
+	  opacity: 0;
+	  fill: #355c7d;
+	}
+	100%{
+	  opacity: 1;
+	  fill: #060606;
+	}
+  }
+	  @keyframes animateFour{
+	0%{
+	  opacity: 0;
+	  fill: #355c7d;
+	}
+	100%{
+	  opacity: 1;
+	  fill: #060606;
+	}
+  }
 
 .main{
 	background-color: #254158;
