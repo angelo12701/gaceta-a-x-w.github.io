@@ -8,7 +8,7 @@
   </head>
 
   
-  <body>
+  <body onload="myFunctionI()">
     <div id="particles-js"></div>
     <script src="particles.js"></script>
     <script src="app.js"></script>
@@ -32,9 +32,9 @@
 
 
 <script>
-  var loader = document.getElementById("preloader");
-  window.addEventListener("load", function(){
-    loader.style.display = "none";
+  var loader = document.getElementById('preloader');
+  window.addEventListener("load", function myFunction(){
+    loader.style.display = 'none';
   })
 </script>
 
