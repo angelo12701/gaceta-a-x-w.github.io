@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<title>Course Outline</title>
+	<link rel="icon" type="image/png" href="A.png">
+</head>
+<body>
+		<div class="header">
+			<div id="particles-js"></div>
+				<div class="headerintroCO">
+					<div clas=headCO>
+		  			<h1>COURSE OUTLINE</h1>
+		  		</div>
+				</div>  
+	  
+		<script src="particles.js"></script>
+		<script src="app.js"></script>
+		
+	 </div>
+
+
+
+
+
+	  <div class="intro">
+		<nav id="navbar">
+			<ul id="menu">
+				<li><a href="Home.html">HOME</a></li>
+				<li><a href="Modules.html">MODULES</a></li>
+				<li><a class="active">COURSE OUTLINE</a></li>
+				<li><a href="index.html">LOG OUT</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+
+
+
+	<div id="preloader">
+		<div class="preloader-logo">
+		  <svg xmlns="http://www.w3.org/2000/svg" width="200" height="180" viewBox="0 0 173.4 83.385">
+	  <text id="textA" transform="translate(1 60)" fill="#00eaff" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">A</tspan></text>
+	  <text id="textX" transform="translate(39.4 60.385)" fill="#060606" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">X</tspan></text>
+	  <text id="textG" transform="translate(140.4 62.385)" fill="#060606" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">G</tspan></text>
+	  <text id="textW" transform="translate(83.4 62.385)" fill="#00eaff" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">W</tspan></text>
+		  </svg>
+		</div>
+	  </div>
+
+
+
+
+
+	<div class="row">
+  		<div class="main">
+			<div class="info">
+				<br><br><br><br><br><br>
+				<h1 class="h1info1">• <i>Course Description</i></h1>
+				<p style="margin-bottom: 150px; ">- This course Applications Development and Emerging Technologies focuses on the development of software applications using web, mobile, and emerging technologies, with emphasis requirements management, interface design principles, usability, testing and deployment. Moreover, the course covers the ethical and legal considerations of applications development</p>
+
+				<h1 class="h1info" style="font-size: 70px;">• <i>Course Learning Outcome</i></h1>
+				<p style="margin-bottom: 50px; ">- Understanding Applications Development and Emerging Technologies.
+
+
+
+				<div class="h1info2">
+					<ul type="A">
+  <li><p style="font-size: 30px;">Applications Development</li><br>
+    <ol type="number">
+      <li><p>Define Application Development</li>
+      <li><p>Stages of Software Development</li>
+      <li><p>Software Development Approaches</li>
+      <li><p>ntroductory concepts on Web and Mobile Development</li>
+    </ul>
+    <br>
+  </li>
+
+  <ul><br><br>
+    	<li><p style="font-size: 30px;">Emerging Technologies</li></p><br>
+      <ol type="A" >
+        <li><p> Definition of Terms</p></li>
+        <li><p>Characteristics of emerging technologies and how these emerge</p></li>
+        <li><p>Emerging technologies and their potential applications</p></li>
+       <div class="emergingtech">
+        <ol type="number">
+          <li><p>Education</p></li>
+          <li><p>Business</p></li>
+          <li><p>Health</p></li>
+          <li><p>Society</p></li>
+        </ol>
+      </div>
+        <li><p>Definition of Industrial Revolution 4.0</p></li>
+        <li><p> Stages of Industrial Revolution 4.0</p></li>
+        <li><p>Building blocks of Industry 4.0</p></li>
+
+      <div class="endingmargin">
+        <li><p>Components of Smart Factory</p></li>
+      </div>
+      </ul>
+</ul>
+</div>
+
+
+
+
+
+<script>
+	var navbar = document.getElementById("navbar");
+	var menu = document.getElementById("menu");
+
+	window.onscroll = function(){
+		if(window.pageYOffset >=menu.offsetTop){
+			navbar.classList.add("sticky");
+		}
+		 else{
+			navbar.classList.remove("sticky");
+		}
+	}
+</script>
+
+
+
+<script>
+	var loader = document.getElementById("preloader");
+	window.addEventListener("load", function(){
+		loader.style.display = "none";
+	})
+</script>
+
+</body>
+</html>

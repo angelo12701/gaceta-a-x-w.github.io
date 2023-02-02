@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<title>MODULE</title>
+	<link rel="icon" type="image/png" href="A.png">
+</head>
+
+
+
+<body>
+	<div class="header">
+		<div id="particles-js"></div>
+		<div class="headerintroM">
+		  <h1 class="h11" style="font-size: 80px;">MODULES</h1>
+		</div>  
+	  
+		<script src="particles.js"></script>
+		<script src="app.js"></script>
+		
+	  </div>
+
+
+
+
+
+	  <div class="intro">
+		<nav id="navbar">
+			<ul id="menu">
+				<li><a href="Home.html">HOME</a></li>
+				<li><a class="active">MODULES</a></li>
+				<li><a href="CourseOutline.html">COURSE OUTLINE</a></li>
+				<li><a href="index.html">LOG OUT</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+
+
+
+	<div id="preloader">
+		<div class="preloader-logo">
+		  <svg xmlns="http://www.w3.org/2000/svg" width="200" height="180" viewBox="0 0 173.4 83.385">
+	  <text id="textA" transform="translate(1 60)" fill="#00eaff" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">A</tspan></text>
+	  <text id="textX" transform="translate(39.4 60.385)" fill="#060606" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">X</tspan></text>
+	  <text id="textG" transform="translate(140.4 62.385)" fill="#060606" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">G</tspan></text>
+	  <text id="textW" transform="translate(83.4 62.385)" fill="#00eaff" font-size="50" font-family="Blanka-Regular, Blanka"><tspan x="0" y="0">W</tspan></text>
+		  </svg>
+		</div>
+	  </div>
+
+
+
+
+
+	<div class="row">
+  		<div class="main">
+			<div class="info">
+				<br><br><br><br><br><br>
+				<h1 class="h1info1" >• <i>Module and Unit Topics</i></h1>
+				<div class="h1info2">
+				<h1>Module 1: <i>OVERVIEW OF EMERGING TECHNOLOGIES</i></h1>
+				<div class="endingmargin">
+				<ul>
+					<li><p>This module aims to introduce to you the concept of applications development and emerging technologies, how they developed and how it is differentiated with existing and developing technologies. It also covers the potential applications of these ET along education, business, health and society. Moreover, Industry 4.0 and smart factory are likewise introduced in this module.</p></li>
+				</ul>
+				<h1>Module 2: <i>REQUIREMENTS ANALYSIS AND MODELING</i></h1>
+				<ul>
+					<li><p>This module aims to deepen your understanding about requirements analysis and modeling. The knowledge area is concerned with the acquisition, analysis, specification, validation and modeling of software requirements. It presents the major categories of software requirements, techniques of gathering requirements, the characteristics of good requirements, and modeling user -defined requirements.</p></li>
+				</ul>
+				<h1>Module 3: <i>DESIGN PRINCIPLES AND PATTERNS</i></h1>
+				<ul>
+					<li><p>This module aims to strengthen your technical know-how on how software designs principles and patterns were implemented from simple to more complex software solutions. In this module, you will be introduced to design principles and patterns, emphasizing on the SOLID principle and design patterns catalogs as applied in some object-oriented systems.</p></li>
+				</ul>
+				<h1>Module 4: <i>PROTOTYPING AND QUALITY ASSURANCE</i></h1>
+				<ul>
+					<li><p>This module aims to present to you some developmental concepts and tools along software design and developments. This module gives emphasis on types of prototypes, phases of prototype development and designing prototypes of web, mobile, and business information systems.</p></li>
+				</ul>
+				<h1>Module 5: <i>SOFTWARE TESTING AND DEPLOYMENT</i></h1>
+				<ul>
+					<li><p>This module aims to impart understanding on the conduct of software testing and deployment. In this module, it highlights types of software testing, areas for system testing, and developing a test plan. Likewise, it presents concepts about software deployment process and areas for consideration for a deployment plan in preparation for the development of a deployment plan template.</p></li>
+				</ul>
+				<h1>Module 6: <i>ETHICAL AND LEGAL CONSIDERATIONS</i></h1>
+				<ul>
+
+				
+					<li><p>This module aims to deepen your understanding about ethical and legal issues in the light of applications development and emerging technologies. Specifically, it presents understanding between ethics and law, IT professional code of ethics, various ethical and legal considerations within the computing environment.</p></li>
+				</div>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script>
+	var navbar = document.getElementById("navbar");
+	var menu = document.getElementById("menu");
+
+	window.onscroll = function(){
+		if(window.pageYOffset >=menu.offsetTop){
+			navbar.classList.add("sticky");
+		}
+		 else{
+			navbar.classList.remove("sticky");
+		}
+	}
+</script>
+
+
+
+<script>
+	var loader = document.getElementById("preloader");
+	window.addEventListener("load", function(){
+		loader.style.display = "none";
+	})
+</script>
+</body>
+</html>
