@@ -189,12 +189,12 @@ nav a.active {
 	font-size: 40px;
 	justify-items: center;
   }
-  .headerintroM{
+  .headerintroM h1{
 	position: absolute;
 	top: 20%;
 	left: 30%;
 	right: 30%;
-	font-size: 40px;
+	font-size: 80px;
 	text-align: center;
   }
 .headerintroCO{
@@ -231,11 +231,11 @@ text-align: center;
 		font-size: 30px;
 	}
 
-	.headerintroM{
+	.headerintroM h1{
 		top: 20%;
 		left: 10%;
 		right:10%;
-		font-size: 90px;
+		font-size: 50px;
 	}
 
 	.logo{
