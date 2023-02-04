@@ -216,4 +216,54 @@ text-align: center;
 	font-size: 80px;
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
+	.headerintro{
+		top: 10%;
+		left: 10%;
+		right:10%;
+		font-size: 20px;
+	}
+
+	.headerintroCO{
+		top: 20%;
+		left: 10%;
+		right:10%;
+		font-size: 30px;
+	}
+
+	.headerintroM{
+		top: 20%;
+		left: 10%;
+		right:10%;
+		font-size: 90px;
+	}
+
+	.logo{
+		width: 100px;
+		margin: 5px 0;
+		cursor: pointer ;
+	}
+
+	.h11{
+		font-size: 40px;
+	}
+
+	.headCO h1{
+		font-size: 50px;
+	}
+
+	.h1info1{
+		font-size: 50px;
+		margin-bottom: 100px;
+	}
+
+	.h1info2 i{
+		font-size:30px
+	}
+
+	.h1info{
+		font-size: 50px;
+		margin-bottom: 100px;
+	}
+
+}

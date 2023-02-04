@@ -135,3 +135,18 @@ body{
       {
         color: whitesmoke;
       }
+
+@media only screen and (max-width: 700px){
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #34495e;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+}
